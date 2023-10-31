@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>skill</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto',sans-serif;
+        }
+        body{
+            background-color: #333;
+        }
+        .inner{
+            padding-top: 20px;
+        }
+        .header{
+            text-align: center;
+            color: #fff;
+            padding: 1rem;
+            position: relative;
+        }
+        .header:after{
+            container:'';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform:translateX(-50%);
+            height: 4px;
+            width: 100px;
+            background-color: #2ecc71;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: center;
+            align-items: center;
+            grid-gap:1rem;
+            padding: 1rem 80px;
+            font-size: 1.2rem;
+        }
+        .skill-box{
+            padding: 1rem;
+            color: #ddd;
+            cursor: pointer;
+        }
+        .skill-box: hover>.skill-title: after, .skill-box: hover>.skill-title: before{
+            width: 35px;
+        }
+        .skill-box:hover .img {
+            transform: translateY(-50px);
+
+    }.h1{
+        align-items: center;
+    }
+        .skill-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        .skill-title:after{
+            container:'';
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            width: 35px;
+            height: 4px;
+            border-radius: 2px 0 0 2px;
+            background-color: #2ecc71;
+            transition: .5s;
+        }
+        .skill-title:before{
+            container:'';
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            width: 0;
+            height: 4px;
+            border-radius: 2px 0 0 2px;
+            background-color: #2ecc71;
+            transition: .5s;
+        }
+        .skill-icon{
+            width: 50px;
+        }
+        .skill-title h3{
+            color: #fff;
+            margin-top: 0.5rem;
+        }
+        .img{
+            width: 90px;
+            height: 90px;
+            position: relative;
+            border-radius: 45px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .5s;
+        } @media screen and (max-width:990px){
+            .container{
+                grid-template-columns: repeat(2,1fr);
+                padding: 2rem 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header"><a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="Home.html" class="active">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Skill.html">Skill</a>
+            <a href="Projects.html">Projects</a>
+            <a href="FreelancingWorks.html">Freelancing works</a>
+            <a href="hire me.html">Hire me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </nav> </header>
+      <div class="inner">
+        <div class="header">
+            <h1 > My skills</h1>
+        </div>
+        <div class="container ">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="pic.html/html5.png" class="skill-icon">
+                    </div>
+                    <h3>HTML-5</h3>
+                </div>
+                <p>It stands strong and true, resilient and universal as the markup you write. It shines as bright and as bold as the forward-thinking, dedicated web developers you are. It's the standard's standard, a pennant for progress. And it certainly doesn't use tables for layout.
+                     We present an HTML5 logo.</p>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="pic.html/css.png" class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally 
+                    called CSS files (. css).</p>
+            </div>
+
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/javascript.png"class="skill-icon" >
+        </div>
+        <h3>javascript</h3>
+    </div>
+    <p>
+        JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it,
+         such as Node.js, Apache CouchDB and Adobe Acrobat.
+    </p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/canva.jpeg"class="skill-icon" >
+        </div>
+        <h3>canva</h3>
+    </div>
+    <p>Canva is a free-to-use online graphic design tool. Use it to create social media posts,
+         presentations, posters, videos, logos and more.</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/bootstrap.png"class="skill-icon" >
+        </div>
+        <h3>bootstrap</h3>
+    </div>
+    <p>Bootstrap uses HTML elements and CSS properties that require the HTML5 doctype. Bootstrap 3 is designed to be responsive to mobile devices. 
+        Mobile-first styles are part of the core framework</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/c.png"class="skill-icon" >
+        </div>
+        <h3>C</h3>
+    </div>
+    <p>C is a procedural programming language with a static system that has the functionality of structured programming, recursion, and lexical variable scoping. C was created with constructs
+         that transfer well to common hardware instructions.</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/c++.png"class="skill-icon" >
+        </div>
+        <h3>C++</h3>
+    </div>
+    <p>C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs. C++ is portable and can be used to develop applications that can be adapted to
+         multiple platforms. C++ is fun and easy to learn!</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/kinemaster.jpeg"class="skill-icon" >
+        </div>
+        <h3>kinemaster</h3>
+    </div>
+    <p>KineMaster is the best mobile video editing experience! Make your videos incredible with
+        AI Super Resolution and transparent video backgrounds!</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/word.jpeg"class="skill-icon" >
+        </div>
+        <h3>word</h3>
+    </div>
+    <p>A word is a basic element of language that carries an objective or practical meaning, can be used on its own, and is uninterruptible</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/excel.jpeg"class="skill-icon" >
+        </div>
+        <h3>Excel</h3>
+    </div>
+    <p>Excel is a spreadsheet program from Microsoft and a component of its Office product group for business applications. Microsoft Excel enables users to format, organize and calculate data in a spreadsheet.</p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/powerpoint.jpeg"class="skill-icon" >
+        </div>
+        <h3>Powerpoint</h3>
+    </div>
+    <p>Find PowerPoint Software Free. Search for PowerPoint Software Free Quick at searchbestinfo.com. Search for PowerPoint Software Free. Visit and Look Up Amazing Results Across the Web. Save Time. </p>
+</div>
+
+<div class="skill-box">
+    <div class="skill-title">
+        <div class="img">
+            <img src="pic.html/inshot.png"class="skill-icon" >
+        </div>
+        <h3>inshot</h3>
+    </div>
+    <p>InShot is a free HD full screen video maker and video cutter. You can crop video easily and export it without losing quality, and share your videos to social media by one click, or edit video with music and pictures for YouTube.</p>
+</div>
+        </div>
+      </div>
+</body>
+</html>

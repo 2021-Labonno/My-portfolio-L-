@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>Projects</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #383232;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 120px;
+  word-break:keep-all;
+  background-color: black;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 80%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #819da7;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 70%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <header class="header"><a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="Home.html" class="active">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Skill.html">Skill</a>
+            <a href="Projects.html">Projects</a>
+            <a href="FreelancingWorks.html">Freelancing works</a>
+            <a href="hire me.html">Hire me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </nav> </header> 
+      <div style="border-style: ridge;"><h1 align="center"> My <span style="color: aqua;">projects</span></h1></div>
+<div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="pic.html/bpsc.PNG" alt="BPSC" style="width:100%">
+            <h3>Projects under Meherin Anannya</h3>
+            <p><a href="https://github.com/2021-Labonno/BPSC">BPSC website link</a></p>
+          </div>
+        </div>
+</body>
+</html>

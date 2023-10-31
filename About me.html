@@ -1,0 +1,135 @@
+<!-- About section design -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>About me</title>
+    <style>.header{
+        text-align: center;
+        color: #fdf1f1;
+        padding: 1rem;
+        position: relative;
+    }
+    .filterable_cards{
+        margin-top: 25px;
+    }
+    .card{
+        flex-basis: 300px;
+        background-color: #073297;
+        padding: 3px;
+        border-radius: 8px;
+    
+    }
+    .card img{
+    width: 90%;
+height:500px ;
+object-fit:none;
+border-radius: 8px 8px 0 0;
+    }
+    .card body{
+        padding: 15px 20px 20px;
+        display: grid;
+    }
+    .card title{
+        font-size: 500px;
+        font-weight: 500;
+        color: #333;
+    }
+    .card text{
+        font-size: 88px;
+        
+        color: #333;
+    }
+    </style>
+</head>
+<body>
+    <header class="header"><a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="Home.html" class="active">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Skill.html">Skill</a>
+            <a href="Projects.html">Projects</a>
+            <a href="FreelancingWorks.html">Freelancing works</a>
+            <a href="hire me.html">Hire me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </nav> </header>
+    <section class="about" id="about">
+        <h2 class="heading">About <span>me</span></h2>
+        <div class="about-img">
+            <img src="pic.html/new.jpg" alt="">
+            <span class="circle-spin"> </span>
+        </div>
+        <div class="about-content"> <h3>
+            Frontend developer
+        </h3>
+        <p>Hello.I'm labonno.A student of JU,IIT.I have a knowledge about web development such as html,css,bootstrap,javascript.
+            I have also knowledge about graphics designing such as logo creating,t -shirt dewsigning,flyer etc. 
+        I work as well as digital marketer.I have social acount of pininterest,instagram,facebook,whatsapp,telegram,messanger,
+        twitter,linkedin etc. </p>
+        <div class="btn-box btns">
+            <a href="#" class="btn">Read more  </a>  </div>
+
+    </section>
+    
+<!-- <h3>Web developer+Digital Marketer+Graphics Designer</h3>
+<p>Hello.I'm labonno.A student of JU,IIT.I have a knowledge about web development such as html,css,bootstrap,javascript.
+    I have also knowledge about graphics designing such as logo creating,t -shirt dewsigning,flyer etc. 
+I work as well as digital marketer.I have social acount of pininterest,instagram,facebook,whatsapp,telegram,messanger,
+twitter,linkedin etc. </p>
+<a href="#" class="btn">Read more</a> -->
+<section>
+<div class="header">
+    <h1 > My hobby</h1>
+</div>
+<!-- images card -->
+<div class="filterable_cards">
+    <div class="card " data-name="travelling">
+        <img src="pic.html/travelling.jpg"alt=""/>
+        <div class="card_body">
+            <h1 class="card_title">Travelling</h1>
+            <p class="card_text">I like to travel.I also travels many places.Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,</p>
+        </div>
+    </div><br>
+
+    <div class="card " data-name="travelling">
+        <img src="pic.html/gardening.jpg"alt=""/>
+        <div class="card_body">
+            <h1 class="card_title">Gardening</h1>
+            <p class="card_text">I like to gardening.I also planted many flowers.Community gardening is a social activity in which an area of land is gardened by a group of people, providing access to fresh produce, herbs, flowers and plants ...
+                ‎Sustainable gardening · ‎Community gardening · ‎Impact gardening · ‎Kitchen garden</p>
+        </div>
+    </div><br>
+
+    <div class="card " data-name="travelling">
+        <img src="pic.html/cooking.jpg"alt=""/>
+        <div class="card_body">
+            <h1 class="card_title">Cooking</h1>Cookies save browsing information to make your online experience easier. Discover how to turn cookies on or off while using the Google Chrome browser.
+        </p>
+        </div>
+    </div><br>
+
+    <div class="card " data-name="travelling">
+        <img src="pic.html/tutoring.jpg"alt=""/>
+        <div class="card_body">
+            <h1 class="card_title">Tutoring</h1>
+            <p class="card_text">I like to tutoring.Tutoring is private academic support, usually provided by an expert teacher; someone with deep knowledge or defined expertise in a particular subject or set of subjects.
+            </p>
+        </div>
+    </div><br>
+
+    <div class="card " data-name="travelling">
+        <img src="pic.html/writing.jpg"alt=""/>
+        <div class="card_body">
+            <h1 class="card_title">Writing</h1>
+            <p class="card_text">I like to write"Writing" is the process of using symbols (letters of the alphabet, punctuation and spaces) to communicate thoughts and ideas in a readable form..</p>
+        </div>
+    </div><br>
+
+    
+</div>
+    <script src="portfolio.js"></script>
+</body>
+</html>

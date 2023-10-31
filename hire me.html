@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>Projects</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }   
+    .contact{
+       position: relative;
+       min-height: 100vh ; 
+       padding: 50px 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       background-size: cover;
+    } 
+    .contact.content{
+        max-width: 800px;
+        text-align: center;
+    }
+    .contact.content h2{
+        font-size: 77px;
+        font-weight: 500;
+        color: #d31f1f;
+    }
+    .contact.content p{
+        font-weight: 300;
+        color: #fff;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         margin-top: 30px;
+    }
+    .container.contactInfo{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container.contactInfo.box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .container.contactInfo.box.icon{
+        min-width: 60px;
+        height: 60px;
+        background: #7d99a0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 62px;
+    }
+    .container.contactInfo.box.text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #f3cece;
+        flex-direction: column;
+        font-weight: 300;
+    }
+    .container.contactInfo.box.text h3{
+        font-weight: 500;
+        color: #091111;
+        font-size: 70px;
+    }
+    .contactForm{
+        width: 40%;
+        padding: 40px;
+        background: #531064;
+    }
+    .contactForm h2{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+    }
+    .contactForm.inputBox{
+        position: relative;
+        width: 100%;
+        margin-top:10px ;
+    }
+    .contactForm.inputBox input,
+     .contactForm.inputBox textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin:10px 0 ;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+    </style>
+</head>
+<body>
+    <header class="header"><a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="Home.html" class="active">Home</a>
+            <a href="About me.html">About me</a>
+            <a href="Skill.html">Skill</a>
+            <a href="Projects.html">Projects</a>
+            <a href="FreelancingWorks.html">Freelancing works</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </nav> </header> 
+      <section class="contact">
+        <div class="content">
+            <h2 style="font-size: x-large;">Contact me</h2>
+            <p style="font-size: medium;">I'm from savar,Dhaka.My hometown is mymensingh.<br>
+            contact number:01646859804</p>
+        </div>
+        <div class="container ">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">
+
+                    </div>
+                    <div class="text">
+                        <h3 style="font-size: x-large;">Address</h3>
+                        <p style="font-size: medium;">Village:Shreepur,Post office:Dhamsona,Ganakbari,Thana:Ashulia,Upazilla:Savar,District:Dhaka.</p> 
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+
+                    </div>
+                    <div class="text">
+                        <h3 style="font-size: x-large;" >Email
+                        </h3>
+                        <p style="font-size: medium;">ummahafsalabonno@gmail.com</p> 
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+
+                    </div>
+                    <div class="text">
+                        <button>Hire me</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2 style="color: aliceblue;">Send message</h2>
+                    <div class="inputBox">
+                        <input type="text" name=""required="required"><br>
+                        <span>Full Name</span>
+                    </div><br>
+                    <div class="inputBox">
+                        <input type="text" name=""required="required"><br>
+                        <span>Email</span>
+                    </div><br>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea><br>
+                        <span>Type your message.....</span>
+                    </div><br>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                    
+                </form>
+
+            </div>
+        </div>
+      </section>
+</body>
+</html>
